@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -B -DskipTests clean deploy -s /var/jenkins_home/.m2/settings.xml' 
+                sh 'mvn clean deploy -s /var/jenkins_home/.m2/settings.xml' 
             }
         }
     }
