@@ -10,6 +10,18 @@
 		<logging.version>1.7.5</logging.version>
 		<mockito.verson>1.9.5</mockito.verson>
 	</properties>
+	<distributionManagement>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>4a2351d7b784-snapshots</name>
+		<url>http://104.40.13.108:8081/artifactory/libs-snapshot</url>
+	    </snapshotRepository>
+	    <repository>
+		<id>central</id>
+		<name>4a2351d7b784-releases</name>
+		<url>http://104.40.13.108:8081/artifactory/libs-release</url>
+	    </repository>
+	</distributionManagement>
 	<repositories>
 		<repository>
 			<id>cloudera</id>
